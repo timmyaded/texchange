@@ -70,13 +70,19 @@ body, .container-fluid {
 }
 
 .hero h2 {
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
   margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:  #00b894;
 }
 
 .hero p {
   font-size: clamp(1rem, 2vw, 1.2rem);
   margin-bottom: 1.5rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
 }
 
 .cta-button {
@@ -155,5 +161,3 @@ footer {
 
 
 }
-
-
