@@ -1,20 +1,13 @@
-:root {
-  --primary-color: #1e2a38;
-  --secondary-color: #3c8dbc;
-  --accent-color: #00b894;
-  --text-color: #ffffff;
-  --light-bg: #f4f7fa;
-  --gray-text: #adb5bd;
-}
 
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--light-bg);
-  color: var(--primary-color);
+  background-color: #f4f7fa;;
+  color:#1e2a38;
+  padding: 0;
 }
 
-body, .container-fluid {
+.container-fluid {
   padding: 0;
   margin: 0;
 }
@@ -50,7 +43,7 @@ body, .container-fluid {
 
 .hero {
   background-color: #032852;
-  color: var(--text-color);
+  color: #ffffff;;
   padding-block: clamp(2rem, 6dvh, 5rem);
   text-align: center;
 }
@@ -87,19 +80,19 @@ body, .container-fluid {
 
 .cta-button {
   background-color: transparent;
-  color: var(--text-color);
+  color:#ffffff;
   padding: 0.75rem 2rem;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
   transition: background 0.3s;
-  border: 3px solid var(--accent-color);
+  border: 3px solid #00b894;
 }
 
 .cta-button:hover {
   
-  box-shadow: 0 0 15px var(--accent-color), 0 0 30px var(--accent-color);
+  box-shadow: 0 0 15px #00b894, 0 0 30px #00b894;
 }
 
 .features {
@@ -111,7 +104,6 @@ body, .container-fluid {
 .flex-container {
   display: flex;
   flex-direction: row;
-  
   justify-content:space-around;
   align-items:center;
   padding-left: 3rem;
@@ -135,8 +127,8 @@ body, .container-fluid {
 
 
 footer {
-  background-color: var(--primary-color);
-  color: var(--gray-text);
+  background-color:#1e2a38;
+  color:#adb5bd;
   text-align: center;
   padding: 1rem 0;
 }
@@ -159,5 +151,13 @@ footer {
   padding-bottom: 15dvh;
  }
 
-
 }
+
+
+
+
+
+
+
+
+
